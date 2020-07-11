@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Bootstrap Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
+</head>
+<body data-spy="scroll" data-target='.navbar'>
+
+	<div class="bgimg" id="home">
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+
+			<div class="container">
+				<a href="" class="navbar-brand text-warning font-weight-bold">
+				AMOGH BALKRISHNA KARANKAL</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+					<ul class="navbar-nav ml-auto ">
+						<li class="nav-item text-mute">
+							<a href="#home" class="nav-link fa fa-home">HOME</a>
+						</li>
+						<li class="nav-item text-mute">
+							<a href="#about_me" class="nav-link fa fa-info-circle">ABOUT ME</a>
+						</li>
+						<li class="nav-item text-mute">
+							<a href="#PortFolio" class="nav-link fa fa-stumbleupon-circle">PORTFOLIO</a>
+						</li>
+						<li class="nav-item text-mute">
+							<a href="#contactme" class="nav-link fa fa-phone">CONTACT</a>
+						</li>
+					</ul>
+					
+				</div>
+
+				
+			</div>
+			
+		</nav>
+
+		<div class="container text-center text-white headerset">
+			<h1>WELCOME TO MY WEBSITE</h1>
+			
+		</div>
+
+	</div>
+	<!--////////////////////////ABOUT ME////////////////////////////////////////-->
+
+	<section class="container aboutme text-center " id="about_me">
+		<h1>ABOUT ME</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<div class="row rowsetting">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-plus-circle fa-3x text-white"></i></div>
+
+				<h2>Heading 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-check-circle fa-3x text-white"></i></i></div>
+
+				<h2>Heading 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto  bg-warning"><i class="fa fa-minus-circle fa-3x text-white"></i></i></div>
+
+				<h2>Heading 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				
+			</div>
+			
+		</div>
+	</section>
+
+	<!--////////////////////////////////////////portfolio/////////////////////////////////////////-->
+
+
+	<section class="portfolio bg-light" id="PortFolio">
+		<div class="container text-center">
+			<h1>PORTFOLIO</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
+					<div class="card h-100">
+						<img src="img/portfolio/Dubai.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">DUBAI</h2>
+							<p class="card-text">Lorem ipsum dolor sit amet</p>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
+					<div class="card h-100">
+						<img src="img/portfolio/london.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">LONDON</h2>
+							<p class="card-text">Lorem ipsum dolor sit amet</p>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
+					<div class="card h-100">
+						<img src="img/portfolio/Mumbai.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">MUMBAI</h2>
+							<p class="card-text">Lorem ipsum dolor sit amet</p>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
+					<div class="card h-100">
+						<img src="img/portfolio/Paris.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">PARIS</h2>
+							<p class="card-text">Lorem ipsum dolor sit amet</p>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
+					<div class="card h-100">
+						<img src="img/portfolio/NewYork.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">NEW YORK</h2>
+							<p class="card-text">Lorem ipsum dolor sit amet</p>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
+					<div class="card h-100">
+						<img src="img/portfolio/Japan.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h2 class="card-title">JAPAN</h2>
+							<p class="card-text">Lorem ipsum dolor sit amet</p>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+
+		</div>
+		
+	</section>
+
+<!--.......................................CONTACT ME.............................................-->
+
+	<section class="contact" id="contactme">
+		<div class="container text-center">
+			<h1>CONTACT ME</h1>
+			<p>Lorem ipsum dolor sit amet</p>
+
+			<div class="row contactsettings">
+				<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+					<figure class="figure">
+						<img src="img/contact/1.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+						<figcaption>
+							<h4>AMOGH BALKRISHNA KARANKAL</h4>
+							<p class="figure-caption">Student at VJTI,Mumbai</p>
+						</figcaption>
+						
+					</figure>
+					
+				</div>
+
+			</div>
+			<p class="fonts">Contact: 8828266465</p>
+        <p class="fonts">Email(personal): amogh.karankal@gamil.com</p>
+        <p class="fonts">Email(college): abkarankal_b18@ce.vjti.ac.in@gamil.com</p>
+        <div>
+
+	        <a href="https://www.instagram.com/slaughter_8055/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true" ></i></a>
+
+	        <a href="https://www.linkedin.com/in/amogh-karankal-20dec2000/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+
+	        <a href="https://www.facebook.com/profile.php?id=100004838985347" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+        
+        </div>
+			
+		</div>
+		
+	</section>
+
+	
+    <div class="profile">
+      <div class="ptext">
+        
+      </div>
+    </div>
+  
+
+	<footer class="footer">
+		<h6 class="text-center text-mute">Copyright &copy; 2020, Design by Amogh Balkrishna Karankal</h6>
+	</footer>
+
+</body>
+</html>
