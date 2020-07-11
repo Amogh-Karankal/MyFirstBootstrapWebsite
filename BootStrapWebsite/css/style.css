@@ -1,0 +1,172 @@
+.bgimg{
+	background-image: url('../img/portfolio/wp3768672-mumbai-wallpapers.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 660px;
+	width: 100%;
+}
+
+.headerset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+
+.headerset h1{
+	font-size: 72px;
+	font-weight: bold;
+	 font-family: "Times New Roman", Times, serif;
+}
+
+.fa-home{
+	color: white;
+}
+.fa-info-circle{
+	color: white;
+}
+.fa-phone{
+	color: white;
+}
+
+#home{
+
+}
+#about_me{
+
+}
+#PortFolio{
+
+}
+#contactme{
+	
+}
+
+
+/*.....................................about me.....................................................*/
+
+.aboutme{
+	padding: 100px 0px 50px;
+	height: 700px;
+	
+}
+
+.aboutme h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.rowsetting{
+	margin: 50px 0px;
+}
+
+.rowsetting p{
+	padding: 10px;
+	color: #0000FF!important;
+}
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+.fa-plus-circle{
+	margin-top: 25px;
+}
+.fa-check-circle{
+	margin-top: 25px;
+}
+.fa-minus-circle{
+	margin-top: 25px;
+}
+
+
+/*/////////////////////////////////////////PORTFOLIO///////////////////////////////////////////////*/
+
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.card{
+	margin-top: 40px;
+}
+
+/*....................................CONTACT ME................................................*/
+
+.contact{
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+
+.contact h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.contactsettings{
+	margin-top: 40px;
+}
+
+.fonts{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*....................................footer.....................................................*/
+
+.footer{
+	height: 50px;
+
+}
+
+.footer h6{
+	line-height: 50px;
+}
+
+
+/*.............................responsive.......................*/
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+
+}
+
+@media(max-device-width: 479px){
+	
+	.headerset h1{
+		font-size: 42px;
+	}
+
+	.aboutme{
+		
+		height: 1600px;
+	}
+
+	.portfolio{
+		height: 2300px;
+	}
+
+}
